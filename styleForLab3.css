@@ -1,3 +1,5 @@
+
+
 header {
     
     border-width: 2px;
@@ -18,7 +20,28 @@ header {
 }
 
 
+/* unvisited link */
+  a:link {
+    color: Blue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  a:active {
+    color: green;
+  }
+
+h1.title{
+    text-decoration:underline overline red;
+}
 .title {
+    display:block;
     text-align:center;
     
 }
@@ -32,8 +55,18 @@ header {
     margin: 40px 26cm 3px 1px;
     padding:10px 10px 10px 10px;
 }
+.present {
+    display: block;
+}
+.absent {
+    display:  none;
+}
 
-details > summary, button{
+div  p {
+   text-align: left;
+  }
+
+details > summary{
     border-width: 1px;
     border-style: solid;
     border-color: black;
@@ -41,6 +74,14 @@ details > summary, button{
     margin: auto;
 }
 
+summary + span {
+    text-decoration:wavy underline;
+}
+
+br ~ span {
+    text-decoration:underline overline black;
+}
+
 textarea[rows="1"], button[name~="buttonAttribute"]{
-    background-color: yellowgreen;
+    background-color: darkorange;
 }
