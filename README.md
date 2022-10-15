@@ -1,3 +1,3 @@
-# Lab 2 
+# Lab 3
 
-https://ngzhewee.github.io/CSE110_Lab2/
+https://ngzhewee.github.io/fa22-cse110-lab3/
