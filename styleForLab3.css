@@ -1,7 +1,46 @@
+header {
+    
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1cm;
+
+    margin-top: 1em;
+    margin-right: 300mm;
+    margin-bottom: 5vh;
+    margin-left: 1ch;
+    
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    
+}
+
+
 .title {
     text-align:center;
+    
 }
 
 #attendanceList, #agenda, #unfinishedBusinessFromLastMeeting, #newBusiness {
     text-decoration: rgb(50.2%,50.2%,50.2%) underline dotted;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+    margin: 40px 26cm 3px 1px;
+    padding:10px 10px 10px 10px;
+}
+
+details > summary, button{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+
+    margin: auto;
+}
+
+textarea[rows="1"], button[name~="buttonAttribute"]{
+    background-color: yellowgreen;
 }
