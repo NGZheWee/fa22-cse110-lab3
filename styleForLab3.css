@@ -1,0 +1,7 @@
+.title {
+    text-align:center;
+}
+
+#attendanceList, #agenda, #unfinishedBusinessFromLastMeeting, #newBusiness {
+    text-decoration: rgb(50.2%,50.2%,50.2%) underline dotted;
+}
