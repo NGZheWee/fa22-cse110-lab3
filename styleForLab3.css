@@ -1,3 +1,5 @@
+* {font-family: "PT Sans", Calibri, Tahoma, sans-serif;}
+
 /*Set up for Header*/
 header {
     position: relative;
@@ -61,7 +63,6 @@ main{
     grid-auto-flow: row;
     grid-row-gap: 5px;
     background-color: lightblue;
-    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
 main > section {
