@@ -1,4 +1,4 @@
-
+/*Set up for Header*/
 header {
     position: relative;
     top: 5px; left: 5px;
@@ -21,23 +21,27 @@ header {
 }
 
 
-/* unvisited link */
+
+/* Set up for links */
   a:link {
     color: Blue;
   }
-  
-  /* visited link */
+
   a:visited {
     color: black;
   }
-  /* mouse over link */
+
   a:hover {
     color: red;
   }
+
   a:active {
     color: green;
   }
 
+
+
+/* Set up for titles */
 h1.title{
     text-decoration:underline overline red;
     position: static;
@@ -50,6 +54,7 @@ h1.title{
 }
 
 
+/* Set up for the grid in main section*/
 main{
     display: grid;
     grid-template-columns: auto;
@@ -66,6 +71,7 @@ main > section {
 
 
 
+ /* Set up for each section title*/
 #attendanceList, #agenda, #unfinishedBusinessFromLastMeeting, #newBusiness {
     text-decoration: rgb(50.2%,50.2%,50.2%) underline dotted;
     border-style: solid;
@@ -75,6 +81,10 @@ main > section {
     margin: 40px 26cm 3px 1px;
     padding:10px 10px 10px 10px;
 }
+
+
+
+/* Set up for some contents*/
 main ul {
     display: flex;
     justify-content: space-between;
@@ -99,6 +109,9 @@ img {
     max-height: 1500px;
 }
 
+
+
+/* Set up for footers */
 details > summary{
     border-width: 1px;
     border-style: solid;
